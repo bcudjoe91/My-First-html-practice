@@ -5,10 +5,12 @@
 #Xiaomi {background-color: green;}
 
 body {background-color: bisque;}
-
-h1 {background-color: blueviolet;}
-
+h1{background-color: goldenrod;}
 nav {background-color: chartreuse;}
 
+p {color: black;font-size: 100%;}
 
-p {color: blueviolet; font-size: larger;}
+h6 {color:blue; font-size: 100%;}
+h3 {color: blue; font-size: 80%;}
+
+h4 {color:brown; font-size:  100%;}
