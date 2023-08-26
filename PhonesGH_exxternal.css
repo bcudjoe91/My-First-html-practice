@@ -18,8 +18,20 @@ h4 {color:brown; font-size:  100%;}
 /*selecting multiple elements and applying single rule set or stylying to them*/
 
 p, h6, div, footer, li
-{color: green; font-size: larger; width: max-content;}
+{color: black; font-size: medium; width: max-content;}
 
 /*------------How do I style the img  image using ecxternal styling ?------*/
 
 img src {color: red;}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+nav {font-size:30px; text-align: center;}
