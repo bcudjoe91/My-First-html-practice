@@ -14,3 +14,12 @@ h6 {color:blue; font-size: 100%;}
 h3 {color: blue; font-size: 80%;}
 
 h4 {color:brown; font-size:  100%;}
+
+/*selecting multiple elements and applying single rule set or stylying to them*/
+
+p, h6, div, footer, li
+{color: green; font-size: larger; width: max-content;}
+
+/*------------How do I style the img  image using ecxternal styling ?------*/
+
+img src {color: red;}
