@@ -1,37 +1,54 @@
-#Nokia {color: rgb(255, 0, 55);}
-#Samsung {background-color: red;}
-#Nokia {background-color: aqua;}
-#Iphone {background-color: gold;}
-#Xiaomi {background-color: green;}
 
-body {background-color: bisque;}
-h1{background-color: goldenrod;}
-nav {background-color: chartreuse;}
 
-p {color: black;font-size: 100%;}
+/*  the external css code below changes the background color of h1 - h6 elements to black  */
 
-h6 {color:blue; font-size: 100%;}
-h3 {color: blue; font-size: 80%;}
 
-h4 {color:brown; font-size:  100%;}
+h2 {background-color: black;color: white; font-size: 30px; text-align: center;}
+
+#Nokia {color:white;}
+#Samsung {background-color: black;}
+#Nokia {background-color: black;}
+#Iphone {background-color: black;}
+#Xiaomi {background-color: black;}
+
+
+/* the external css code below changes the entire background color of the html document to white */
+
+body {background-color: white;}
+
+
+
+p {color:aqua;font-size: 100%;}
+
+h6 {color:white; font-size: 100%;}
+h3 {color: white; font-size: 100%;}
+
+h4 {color:black; font-size:  100%;}
 
 /*selecting multiple elements and applying single rule set or stylying to them*/
 
 p, h6, div, footer, li
 {color: black; font-size: medium; width: max-content;}
 
-/*------------How do I style the img  image using ecxternal styling ?------*/
+/* How do I style the img  image using ecxternal styling ?*/
 
-img src {color: red;}
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-  }
+
+
+
+
+
+/* css font size and text align-center */
+
+/*The element h1 contains the html property (welcome to my phonesgh) therefore the below code will effect 
+the background-color of (welcome to my phonesgh)and change it to black */
+
+
+h1 {background-color: black; font-size: 60px; color: white; text-align:center;}
+
   
   p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 2px;
   }
-nav {font-size:30px; text-align: center;}
