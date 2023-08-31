@@ -13,6 +13,10 @@ h2 {background-color: black;color: white; font-size: 40px; text-align: center;}
 
 
 
+
+
+
+
 /* the external css code below changes the entire background color of the html document to white */
 
 body {background-color: white;}
@@ -46,7 +50,9 @@ the background-color of (welcome to my phonesgh)and change it to black */
 
 h1 {background-color: black; font-size: 60px; color: white; text-align:center;}
 
-  
+
+
+
   p, li {
     font-size: 16px;
     line-height: 2;
